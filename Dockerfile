@@ -24,4 +24,4 @@ ENTRYPOINT ["/go/bin/freegeoip"]
 # Example:
 # CMD ["-use-x-forwarded-for", "-public", "/var/www", "-internal-server", "8888"]
 
-CMD ["-use-x-forwarded-for", "-public", "/var/www", "-internal-server", "8888"]
+CMD ["-use-x-forwarded-for"]
